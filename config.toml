@@ -1,3 +1,48 @@
-baseURL = "http://example.org/"
+baseURL = "https://l2n.me"
+title = "luanguimaraesla"
+theme = "vec"
 languageCode = "en-us"
-title = "My New Hugo Site"
+paginate = 15
+
+publishDir = "docs"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+[menu]
+  [[menu.main]]
+    name = "me"
+    weight = 0
+    url = "/me"
+  [[menu.main]]
+    name = "code"
+    weight = 1
+    url = "https://github.com/luanguimaraesla"
+  [[menu.main]]
+    name = "climb"
+    weight = 2
+    url = "https://astro.luanguimaraes.me"
+  [[menu.main]]
+    name = "sail"
+    weight = 3
+    url = "https://astro.luanguimaraes.me"
+  [[menu.main]]
+    name = "music"
+    weight = 4
+    url = "https://astro.luanguimaraes.me"
+  [[menu.main]]
+    name = "astronomy_pt-br"
+    weight = 5
+    url = "https://astro.luanguimaraes.me"
+
+[params]
+  Keywords = "luan, climb, developer, sail, bike, music, code"
+  Description = "personal page"
+  
+  Avatar = "img/me.jpg"
+  SelfIntro = "learning to be human" 
+  Email = "luang@riseup.net"
+  
+  GithubID = "luanguimaraesla"
+  TwitterID = "luanguimaraesla"
+  LinkedInID = "luanguimaraesla"
