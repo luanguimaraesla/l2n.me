@@ -11,29 +11,13 @@ googleAnalytics = ""
 
 [menu]
   [[menu.main]]
-    name = "me"
-    weight = 0
-    url = "/me"
-  [[menu.main]]
-    name = "code"
-    weight = 1
-    url = "https://github.com/luanguimaraesla"
-  [[menu.main]]
-    name = "climb"
-    weight = 2
-    url = "https://astro.luanguimaraes.me"
-  [[menu.main]]
-    name = "sail"
-    weight = 3
-    url = "https://astro.luanguimaraes.me"
-  [[menu.main]]
-    name = "music"
-    weight = 4
-    url = "https://astro.luanguimaraes.me"
+    name = "about"
+    weight = 100
+    url = "/about"
   [[menu.main]]
     name = "astronomy_pt-br"
-    weight = 5
-    url = "https://astro.luanguimaraes.me"
+    weight = 0
+    url = "https://astro.l2n.me"
 
 [params]
   Keywords = "luan, climb, developer, sail, bike, music, code"
