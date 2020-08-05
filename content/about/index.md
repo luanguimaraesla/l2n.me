@@ -4,7 +4,12 @@ id = "about"
 formspree = true
 +++
 
-Hi, my name is Luan Guimarães, I was born in 1995 in Brasília, the capital of Brazil, in the middle of Cerrados, known as the Brazilian savannah, the second largest biome in Latin America. So it’s not impressive that I’m passionate about nature, especially for the Life and the Sky. And, of course, I am an outdoor sports lover, a mix of: climbing, mountain biking, trekking and sailing. My boat's name is Kubernetes.
+
+*Hello!*
+
+My name is Luan Guimarães, I was born in 1995 in Brasília, the capital of Brazil, in the middle of Cerrados, known as the Brazilian savannah, the second largest biome in Latin America. So it’s not impressive that I’m passionate about nature, especially for the life and the sky. And, of course, I am an outdoor sports lover, a mix of: climbing, mountain biking, trekking and sailing. My boat's name is Kubernetes.
+
+![](/img/me2.jpg)
 
 To complete the salad, I'm a poor excuse for a bass player, with some Brasília bars on the curriculum and three almost-there loudy rock bands. [Give us a chance](https://www.youtube.com/watch?v=BWQSlmyZ3zQ), I can prove it, the idea was beautiful!
 
