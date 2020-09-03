@@ -15,7 +15,11 @@ googleAnalytics = ""
     weight = 100
     url = "/about"
   [[menu.main]]
-    name = "astronomy_pt-br"
+    name = "presentations"
+    weight = 0
+    url = "https://slides.l2n.me"
+  [[menu.main]]
+    name = "astronomy"
     weight = 0
     url = "https://astro.l2n.me"
 

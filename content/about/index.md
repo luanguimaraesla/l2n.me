@@ -1,7 +1,7 @@
 +++
 title = "About"
 id = "about"
-formspree = true
+formspree = false
 +++
 
 *Hello!*
@@ -12,7 +12,7 @@ My name is Luan Guimarães, I was born in 1995 in Brasília, the capital of Braz
 
 To top it off, I'm not that bass player, but I have some Brasília bars on the curriculum and three almost-there rock bands. [Give us a chance](https://www.youtube.com/watch?v=BWQSlmyZ3zQ), I can prove it, the idea was beautiful!
 
-For me, coding is an art. As a painter, we follow some rules and we have our own patterns, but in the end, after pipeline succeeds, that thing is an interpretation of the world, full of expression and creativity. I graduated in Software Engineering by the University of Brasília, and now I'm setting the world on fire as a Site Reliability Engineer.
+For me, coding is an art. Like the painters, we follow some rules and we have our own patterns, but in the end, after pipeline succeeds, that thing is an interpretation of the world, full of expression and creativity. I graduated in Software Engineering by the University of Brasília, and now I'm setting the world on fire as a Site Reliability Engineer.
 
 I believe in a free and just world. I see the preservation of humanity and rationality as the only categorical imperatives, and the democratization of free access to scientific knowledge being the only way to go. I'm here, learning to be human.
 
