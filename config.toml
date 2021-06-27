@@ -22,6 +22,10 @@ googleAnalytics = ""
     name = "astronomy"
     weight = 0
     url = "https://astro.l2n.me"
+  [[menu.main]]
+    name = "cv"
+    weight = 0
+    url = "https://cv.l2n.me"
 
 [params]
   Keywords = "luan, climb, developer, sail, bike, music, code"
@@ -34,3 +38,4 @@ googleAnalytics = ""
   GithubID = "luanguimaraesla"
   TwitterID = "luanguimaraesla"
   LinkedInID = "luanguimaraesla"
+  YouTubeID = "UCtvTjCNHCZh318e6r9U4p8w"
