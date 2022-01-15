@@ -1,40 +1,143 @@
 baseURL = "https://l2n.me"
 title = "luanguimaraesla"
-theme = "vec"
+theme = "gruvhugo"
 languageCode = "en-us"
-paginate = 15
+paginate = 10
 
 publishDir = "docs"
 
-disqusShortname = ""
-googleAnalytics = ""
+# Default Post Extension
+defaultExtension= "html"
+
+# Default metadata format for newly created frontmatter using
+# hugo new command. "toml", "yaml", or "json"
+metaDataFormat= "yaml"
+
+[taxonomies]
+  tag      = "tags"
+  category = "categories"
+  series   = "series"
+
+[params.main]
+  enabled = true
+  enableKatex = true
+  metaKeywords = "luan, climber, developer, sailer, biker, musicist, surfer"
+  headerTitle = "Luan Guimarães"
+  copyright = ""
+  name = "luanguimaraesla"
+  img = "img/me.jpg"
+  img_title = "Picture from the day burned my eyes with a telescope."
+  icon = "img/logo.png"
+  quote = ""
+  description= ""
+  licenseUrl = ""
+
+ # Social icons
+  [[params.social]]
+    name = "gitlab"
+    url  = "https://gitlab.com/luanguimaraesla/"
+
+  [[params.social]]
+    name = "email"
+    url  = "mailto:luang@protonmail.ch?subject=hi%20luan"
+
+  [[params.social]]
+    name = "gpg"
+    url  = "https://keys.openpgp.org/"
+
+  [[params.social]]
+    name = "github"
+    url  = "https://github.com/luanguimaraesla/"
+
+  [[params.social]]
+    name = "linkedin"
+    url  = "https://www.linkedin.com/in/luanguimaraesla/"
+
+[params.style]
+  # add path to custom CSS files here
+  custom_css = ["css/override.css"]
+  # add path to custom SCSS files here
+  custom_scss = []
 
 [menu]
   [[menu.main]]
-    name = "about"
+    identifier = "about"
+    name = "About"
     weight = 100
-    url = "/about"
+    url = "about"
   [[menu.main]]
-    name = "presentations"
+    identifier = "slides"
+    name = "Slides"
     weight = 0
     url = "https://slides.l2n.me"
   [[menu.main]]
-    name = "astronomy"
+    identifier = "astronomy"
+    name = "Astronomy"
     weight = 0
     url = "https://astro.l2n.me"
   [[menu.main]]
-    name = "cv"
+    identifier = "cv"
+    name = "Curriculum"
     weight = 0
     url = "https://cv.l2n.me"
 
-[params]
-  Keywords = "luan, climber, developer, sailer, biker, musicist, surfer"
-  Description = "personal page"
-  
-  Avatar = "img/me.jpg"
-  SelfIntro = "FORA BOLSONARO"
-  Email = "luang@protonmail.ch"
-  
-  GithubID = "luanguimaraesla"
-  LinkedInID = "luanguimaraesla"
-  YouTubeID = "UCtvTjCNHCZh318e6r9U4p8w"
+[markup]
+  defaultMarkdownHandler = "goldmark"
+  [markup.asciidocExt]
+    backend = "html5"
+    docType = "article"
+    extensions = []
+    failureLevel = "fatal"
+    noHeaderOrFooter = true
+    safeMode = "unsafe"
+    sectionNumbers = false
+    trace = false
+    verbose = true
+    workingFolderCurrent = false
+    [markup.asciidocExt.attributes]
+  [markup.blackFriday]
+    angledQuotes = false
+    footnoteAnchorPrefix = ""
+    footnoteReturnLinkContents = ""
+    fractions = true
+    hrefTargetBlank = false
+    latexDashes = true
+    nofollowLinks = false
+    noreferrerLinks = false
+    plainIDAnchors = true
+    skipHTML = false
+    smartDashes = true
+    smartypants = true
+    smartypantsQuotesNBSP = false
+    taskLists = true
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      definitionList = true
+      footnote = true
+      linkify = true
+      strikethrough = true
+      table = true
+      taskList = true
+      typographer = true
+    [markup.goldmark.parser]
+      attribute = true
+      autoHeadingID = true
+      autoHeadingIDType = "github"
+    [markup.goldmark.renderer]
+      hardWraps = false
+      unsafe = false
+      xhtml = false
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2

@@ -1,0 +1,19 @@
+html {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.nav a {
+  background: rgba(7, 102, 120, 0.5);
+  border: none;
+}
+
+.nav a:hover {
+  background: rgba(7, 102, 120, 0.2);
+  padding: 10px;
+  border: none;
+  animation: none;
+}
+
+.color-scheme {
+  display: none;
+}
