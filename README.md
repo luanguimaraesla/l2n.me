@@ -1,8 +1,8 @@
 # L2N - My personal website
 
-This repository is a simple github page that works as my personal web space, where I can post some things related to me and what I do on the Internet.
+This repository is a simple github page that works as my personal web space, where I can post things related to me and what I do on the Internet.
 
-Access: [https://l2n.me](https://l2n.me)
+Addr: [https://l2n.me](https://l2n.me)
 
 ### Build
 

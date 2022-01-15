@@ -28,14 +28,13 @@ googleAnalytics = ""
     url = "https://cv.l2n.me"
 
 [params]
-  Keywords = "luan, climb, developer, sail, bike, music, code"
+  Keywords = "luan, climber, developer, sailer, biker, musicist, surfer"
   Description = "personal page"
   
   Avatar = "img/me.jpg"
-  SelfIntro = "learning to be human" 
-  Email = "luang@riseup.net"
+  SelfIntro = "FORA BOLSONARO"
+  Email = "luang@protonmail.ch"
   
   GithubID = "luanguimaraesla"
-  TwitterID = "luanguimaraesla"
   LinkedInID = "luanguimaraesla"
   YouTubeID = "UCtvTjCNHCZh318e6r9U4p8w"
