@@ -21,7 +21,7 @@ metaDataFormat= "yaml"
 [params.main]
   enabled = true
   enableKatex = true
-  metaKeywords = "luan, climber, developer, sailer, biker, musicist, surfer"
+  metaKeywords = "luan, climber, developer, sailer, surfer, biker, musicist"
   headerTitle = "Luan Guimarães"
   copyright = ""
   name = "luanguimaraesla"
@@ -71,10 +71,10 @@ metaDataFormat= "yaml"
     weight = 0
     url = "https://slides.l2n.me"
   [[menu.main]]
-    identifier = "astronomy"
-    name = "Astronomy"
+    identifier = "sites"
+    name = "Sites"
     weight = 0
-    url = "https://astro.l2n.me"
+    url = "sites"
   [[menu.main]]
     identifier = "cv"
     name = "Curriculum"
