@@ -20,6 +20,6 @@ I'm also a co-founder and CTO of [Sinkove 🏥](https://sinkove.com/), an AI-dri
 
 Outside of work, I enjoy documenting parts of my adventures, from sailing to outdoor explorations, which occasionally end up on [my YouTube channel 📹](https://www.youtube.com/@luanguimaraesla).
 
-I believe in a free and just world. I’m increasingly aware of the challenges posed by climate change, political instability, and the concentration of money and power, and I see free software, open knowledge, and transparent systems, including the responsible use of AI, as essential tools for navigating those tensions. Not as silver bullets, but as foundations that must be built, governed, and used with care. I’m here, learning as I go, trying to build things that make sense.
+I believe in a free and fair world. I’m increasingly aware of the challenges posed by climate change, political instability, and the concentration of money and power, and I see free software, open knowledge, and transparent systems, including the responsible use of AI, as essential tools for navigating those tensions. Not as silver bullets, but as foundations that must be built, governed, and used with care. I’m here, learning as I go, trying to build things that make sense.
 
 If any of this resonates, feel free to [send me a message 📧](mailto:luan@l2n.me).
