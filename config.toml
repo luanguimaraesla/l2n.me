@@ -2,9 +2,11 @@ baseURL = "https://l2n.me"
 title = "luanguimaraesla"
 theme = "gruvhugo"
 languageCode = "en-us"
-paginate = 10
 
 publishDir = "docs"
+
+[pagination]
+  pagerSize = 10
 
 # Default Post Extension
 defaultExtension= "html"
@@ -28,8 +30,8 @@ metaDataFormat= "yaml"
   img = "img/me.jpg"
   img_title = "Picture from the day burned my eyes with a telescope."
   icon = "img/logo.png"
-  quote = ""
-  description= ""
+  quote = "Software architect, engineering leader, and outdoor enthusiast"
+  description= "Building reliable systems and exploring the world between code and nature."
   licenseUrl = ""
 
  # Social icons
@@ -39,7 +41,7 @@ metaDataFormat= "yaml"
 
   [[params.social]]
     name = "email"
-    url  = "mailto:luang@protonmail.ch?subject=hi%20luan"
+    url  = "mailto:luan@l2n.me?subject=hi%20luan"
 
   [[params.social]]
     name = "gpg"
@@ -66,20 +68,10 @@ metaDataFormat= "yaml"
     weight = 100
     url = "about"
   [[menu.main]]
-    identifier = "slides"
-    name = "Slides"
+    identifier = "links"
+    name = "Links"
     weight = 0
-    url = "https://slides.l2n.me"
-  [[menu.main]]
-    identifier = "sites"
-    name = "Sites"
-    weight = 0
-    url = "sites"
-  [[menu.main]]
-    identifier = "cv"
-    name = "Curriculum"
-    weight = 0
-    url = "https://cv.l2n.me"
+    url = "links"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
