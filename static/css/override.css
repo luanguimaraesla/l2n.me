@@ -17,3 +17,14 @@ html {
 .color-scheme {
   display: none;
 }
+
+.calendar-container {
+  margin: 2rem 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.calendar-container iframe {
+  display: block;
+  overflow: hidden;
+}

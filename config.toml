@@ -72,6 +72,11 @@ metaDataFormat= "yaml"
     name = "Links"
     weight = 0
     url = "links"
+  [[menu.main]]
+    identifier = "meetings"
+    name = "Meetings"
+    weight = 50
+    url = "meetings"
 
 [markup]
   defaultMarkdownHandler = "goldmark"
@@ -117,7 +122,7 @@ metaDataFormat= "yaml"
       autoHeadingIDType = "github"
     [markup.goldmark.renderer]
       hardWraps = false
-      unsafe = false
+      unsafe = true
       xhtml = false
   [markup.highlight]
     codeFences = true
